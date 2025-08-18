@@ -22,7 +22,7 @@ func (Provider) CaddyModule() caddy.ModuleInfo {
 }
 
 // Provision sets up the module. Implements caddy.Provisioner.
-func (p *Provider) Provision(ctx caddy.Context) error {
+func (p *Provider) Provision(_ caddy.Context) error {
 	repl := caddy.NewReplacer()
 	p.Provider.APIToken = repl.ReplaceAll(p.Provider.APIToken, "")
 	p.Provider.APIURL = repl.ReplaceAll(p.Provider.APIURL, "")

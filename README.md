@@ -11,11 +11,11 @@ dns.providers.linode
 
 ## Building
 
-To compile this Caddy module, follow the steps describe at the [Caddy Build from Source](https://github.com/caddyserver/caddy#build-from-source) instructions and import the `github.com/caddy-dns/linode` plugin
+To compile this Caddy module, follow the steps describe at the [Caddy Build from Source](https://github.com/caddyserver/caddy#build-from-source) instructions and import the `github.com/HugoKlepsch/caddy-dns_linode` plugin
 
 ## Authenticating
 
-See [the associated README in the libdns package](https://github.com/libdns/linode) for important information about credentials.
+See [the associated README in the libdns package](https://github.com/HugoKlepsch/libdns-linode) for important information about credentials.
 
 ## Config examples
 
