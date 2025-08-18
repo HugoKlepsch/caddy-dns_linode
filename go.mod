@@ -1,14 +1,12 @@
-module github.com/caddy-dns/linode
+module github.com/HugoKlepsch/caddy-dns_linode
 
 go 1.23.0
 
 toolchain go1.24.6
 
-replace github.com/libdns/linode => github.com/HugoKlepsch/libdns-linode v0.0.0-20250818230210-b78be760ea9f
-
 require (
+	github.com/HugoKlepsch/libdns-linode v0.0.0-20250818232419-7aca3e9ed41e
 	github.com/caddyserver/caddy/v2 v2.7.6
-	github.com/libdns/linode v0.4.1
 )
 
 require (

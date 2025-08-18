@@ -1,5 +1,5 @@
-github.com/HugoKlepsch/libdns-linode v0.0.0-20250818230210-b78be760ea9f h1:1fHwZSlMi4dGY3O0MSphkURWCBaj0KMezu720Q6NKQk=
-github.com/HugoKlepsch/libdns-linode v0.0.0-20250818230210-b78be760ea9f/go.mod h1:1sN+n1CF1P8Y7GaD2p1CiDbfdzxhTs3YOUf7aEY0fWo=
+github.com/HugoKlepsch/libdns-linode v0.0.0-20250818232419-7aca3e9ed41e h1:BRZX/8U4HGvP8okFMOJdCaPKlpyI0Hl/XCeBPpwWiak=
+github.com/HugoKlepsch/libdns-linode v0.0.0-20250818232419-7aca3e9ed41e/go.mod h1:H/RBPenk+QdGHbG5pNCwiJiQ4VSdOuzlIBJUy/xFnTA=
 github.com/benbjohnson/clock v1.3.0 h1:ip6w0uFQkncKQ979AypyG0ER7mqUSBdKLOgAle/AT8A=
 github.com/benbjohnson/clock v1.3.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
