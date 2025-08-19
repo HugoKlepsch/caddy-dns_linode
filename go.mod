@@ -5,7 +5,7 @@ go 1.23.0
 toolchain go1.24.6
 
 require (
-	github.com/HugoKlepsch/libdns-linode v0.0.0-20250818232419-7aca3e9ed41e
+	github.com/HugoKlepsch/libdns-linode v0.0.0-20250830204015-d3f670ed3a63
 	github.com/caddyserver/caddy/v2 v2.7.6
 )
 
@@ -19,8 +19,8 @@ require (
 	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1 // indirect
 	github.com/google/uuid v1.3.1 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
-	github.com/libdns/libdns v1.1.0 // indirect
-	github.com/linode/linodego v1.55.0 // indirect
+	github.com/libdns/libdns v1.1.1 // indirect
+	github.com/linode/linodego v1.56.0 // indirect
 	github.com/mholt/acmez v1.2.0 // indirect
 	github.com/miekg/dns v1.1.55 // indirect
 	github.com/onsi/ginkgo/v2 v2.9.5 // indirect
