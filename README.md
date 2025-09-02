@@ -26,6 +26,14 @@ xcaddy build --with github.com/HugoKlepsch/caddy-dns_linode
 See [the README in the libdns-linode package](https://github.com/HugoKlepsch/libdns-linode?tab=readme-ov-file#getting-a-token)
 for instructions on how to get a Linode Personal Access Token.
 
+## Example deployment
+
+See this [Caddyfile](https://github.com/HugoKlepsch/home-portal/blob/main/Caddyfile#L15) 
+for an example deployment of this plugin.
+This [docker-compose](https://github.com/HugoKlepsch/home-portal/blob/973d9ed595e9507c6de7d5f8b860b5d338a36643/compose/docker-compose.yml#L6-L8) 
+and [Dockerfile](https://github.com/HugoKlepsch/home-portal/blob/0ffd20df86124c927c71a2b26e44ad0fdf0337d6/Dockerfile#L8)
+build an image of Caddy with this plugin.
+
 ## Config examples
 
 To use this module for the ACME DNS challenge, [configure the ACME issuer in your Caddy JSON](https://caddyserver.com/docs/json/apps/tls/automation/policies/issuer/acme/) like so:
