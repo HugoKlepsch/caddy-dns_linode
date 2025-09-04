@@ -2,13 +2,18 @@ Linode module for Caddy
 =======================
 
 This package contains a DNS provider module for [Caddy](https://github.com/caddyserver/caddy). 
-It can be used to manage DNS records with Linode.
+It can be used to complete ACME DNS-01 challenges to get a TLS certificate from 
+[Let's Encrypt](https://letsencrypt.org/).
 
 ## Caddy module name
 
 ```
 dns.providers.linode
 ```
+
+Caddy doesn't have this module built-in, so you need to build Caddy with this module.
+
+See [Building](#building) for instructions.
 
 ## Building
 
@@ -20,6 +25,12 @@ Import `github.com/HugoKlepsch/caddy-dns_linode` using `--with github.com/HugoKl
 ```bash
 xcaddy build --with github.com/HugoKlepsch/caddy-dns_linode
 ```
+
+This will produce a binary called `caddy` in the current directory that is 
+built with this module. 
+
+For an example of building Caddy with this module in a Docker container, see 
+[Example deployment](#example-deployment).
 
 ## Linode API token
 
